@@ -13,4 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+<<<<<<< HEAD
 Route::get('/', 'PostController@index');
+=======
+Route::get('/posts', 'PostController@index');
+>>>>>>> origin/master
